@@ -7,7 +7,6 @@ class Program
     {
         List<Animal> animais = new List<Animal>();
 
-        // Adicionando alguns animais ao zoológico
         animais.Add(new Mamifero("Bidu", "Cachorro"));
         animais.Add(new MamiferoNadador("Maria", "Baleia"));
         animais.Add(new MamiferoVoador("Joca", "Morcego"));
@@ -16,7 +15,7 @@ class Program
         animais.Add(new AnfibioNadador("Joana", "Salamandra"));
 
         animais.Add(new Ave("Juju", "Avestruz"));
-        animais.Add(new AveVoadora("Pepe", ""));
+        animais.Add(new AveVoadora("Pepe", "Papagaio"));
 
         animais.Add(new Inseto("Duda", "Formiga"));
         animais.Add(new InsetoVoador("Bia", "Borboleta"));
