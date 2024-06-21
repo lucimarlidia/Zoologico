@@ -44,8 +44,8 @@ class Program
             {
                 INadar nadador = (INadar)animal;
                 nadador.Nadar();
-                nadador.Subir();
                 nadador.Descer();
+                nadador.Subir(); 
                 Console.WriteLine($"Profundidade máxima de nadador: {nadador.ProfundidadeMaxima} metros");
                 Console.WriteLine();
             }

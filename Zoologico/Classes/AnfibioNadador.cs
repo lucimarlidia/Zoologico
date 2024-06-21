@@ -15,14 +15,14 @@ public class AnfibioNadador: Anfibio, INadar
         Console.WriteLine($"O anfíbio {Nome} está nadando...");
     }
 
-    public void Subir()
-    {
-        Console.WriteLine($"O anfíbio {Nome} está subindo...");
-    }
-
     public void Descer()
     {
         Console.WriteLine($"O anfíbio {Nome} está descendo...");
+    }
+
+    public void Subir()
+    {
+        Console.WriteLine($"O anfíbio {Nome} está subindo...");
     }
 
     public override void DescreverAnimal()

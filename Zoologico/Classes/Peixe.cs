@@ -15,14 +15,14 @@ public class Peixe : Animal, INadar
         Console.WriteLine($"O peixe {Nome} está nadando...");
     }
 
-    public void Subir()
-    {   
-        Console.WriteLine($"O peixe {Nome} está subindo...");
-    }
-
     public void Descer()
     {
         Console.WriteLine($"O peixe {Nome} está descendo...");
+    }
+
+    public void Subir()
+    {   
+        Console.WriteLine($"O peixe {Nome} está subindo...");
     }
 
     public override void DescreverAnimal()

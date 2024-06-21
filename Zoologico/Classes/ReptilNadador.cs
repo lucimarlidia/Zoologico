@@ -15,14 +15,14 @@ public class ReptilNadador : Reptil, INadar
         Console.WriteLine($"O réptil {Nome} está nadando...");
     }
 
-    public void Subir()
-    {
-        Console.WriteLine($"O réptil {Nome} está subindo...");
-    }
-
     public void Descer()
     {
         Console.WriteLine($"O réptil {Nome} está descendo...");
+    }
+
+    public void Subir()
+    {
+        Console.WriteLine($"O réptil {Nome} está subindo...");
     }
 
     public override void DescreverAnimal()

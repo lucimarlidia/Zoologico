@@ -15,14 +15,14 @@ public class MamiferoNadador : Animal, INadar
         Console.WriteLine($"O mamífero {Nome} está nadando...");
     }
 
-    public void Subir()
-    {
-        Console.WriteLine($"O mamífero {Nome} está subindo...");
-    }
-
     public void Descer()
     {
         Console.WriteLine($"O mamífero {Nome} está descendo...");
+    }
+
+    public void Subir()
+    {
+        Console.WriteLine($"O mamífero {Nome} está subindo...");
     }
 
     public override void DescreverAnimal()
